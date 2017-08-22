@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+  compile fileTree(include: ['*.jar'], dir: 'libs')
+  compile files('D:/android/git/AutoTestAppium/app/src/main/java/libs/java-client-4.1.2.jar')
+  compile files(
+          'D:/android/git/AutoTestAppium/app/src/main/java/libs/selenium-server-standalone-3.0.0-beta3.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
